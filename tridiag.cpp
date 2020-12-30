@@ -4,10 +4,6 @@
 using namespace arma;
 
 
-/*
-DENNE MÅ LØSE vektor
-*/
-
 //General forward solver
 void tridiag::forward_solver(vec &v_vec, vec &g_vec){
   //Setting inital values for the tilde vectors
